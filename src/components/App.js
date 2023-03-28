@@ -3,10 +3,10 @@ import "../styles/App.css";
 import picture from "../assets/illustration-hero.png";
 
 const options = [
-  { key: 0, plan: "Annual Plan", price: "59.99/year" },
-  { key: 1, plan: "6-Month Plan", price: "34.99/6mo" },
-  { key: 2, plan: "3-Month Plan", price: "16.99/3mo" },
-  { key: 3, plan: "1-Month Plan", price: "5.99/1mo" },
+  { key: 0, plan: "Annual Plan", price: "$59.99/year" },
+  { key: 1, plan: "6-Month Plan", price: "$34.99/6mo" },
+  { key: 2, plan: "3-Month Plan", price: "$16.99/3mo" },
+  { key: 3, plan: "1-Month Plan", price: "$5.99/1mo" },
 ];
 
 const App = () => {
@@ -14,10 +14,6 @@ const App = () => {
 
   const changeHandler = (e) => {
 
-  };
-
-  const submitHandler = (e) => {
-    
   };
 
   return (
@@ -37,7 +33,7 @@ const App = () => {
             any device anywhere you like.
           </p>
         </div>
-        <form onSubmit={}>
+        <form>
           <div className="select-container">
             <div className="music-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
